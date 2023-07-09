@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:  Open Sans;
+}
+.header-container{
+    background-image: url('images/banner/banner2.png');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: relative;
+
+
+}
+.header-title-desc{
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    right: 150px;
+    top: 200px;
+
+}
+.header-title-desc h1{
+    font-size: 50px;
+}
+.header-title-desc p{
+    font-size: 15px;
+    margin: 24px 0px;
+}
+.btn{
+    padding: 12px 17px;
+    font-size: 18px;
+    background: tomato;
+    color: white;
+    border: none;
+    border-radius:4px ;
+    cursor: pointer;
+}
+/* //////////////////// */
+
+
+
+.banner-section{
+    display: flex;
+    height: 80vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    text-align: right;
+    margin-right: 30px;
+
+}
+.banner-section img{
+    width: 400px;
+    background: linear-gradient(gray black);
+    background-blend-mode: overlay;
+}
+.banner-section-desc{
+    width: 40%;
+}
+.banner-section-desc h2{
+    font-size:39px ;
+}
+.banner-section-desc p{
+    font-size:15px ;
+    margin: 20px 0px;
+}
+.banner-section-desc ul li{
+    list-style: none;
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+/* ////////////////////////// */
+
+.my-plan{
+    /* width: 80%; */
+    height: 100vh;
+    padding:0px 110px;
+    background: rgba(236, 236, 236, 0.335);
+}
+.my-plan > h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+.my-skill{
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content:center;
+}
+.skill-box img{
+    width: 70px;
+}
+.skill-box h2{
+    font-size: 20px;
+    color: #474747;
+    margin: 15px 0px;
+}
+
+.my-plan-img{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 80%;
+    /* height: 200px; */
+    background-image:linear-gradient(to left, rgba(254, 196, 196, 0.52), rgba(255, 17, 17, 0.73)), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size:cover ;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 60px auto;
+
+
+}
+.my-plan-img h2{
+    color: white;
+    margin-bottom: 20px;
+    font-family: arial black;
+}
+
+/* footer section start */
+
+footer{
+    background: #303030;
+    color: white;
+    display: flex;
+    padding: 100px 200px;
+    gap: 200px;
+}
+.footer-desc-section{
+    width: 40%;
+}
+.footer-desc-section h2{
+    font-size: 30px;
+    font-family: arial black;
+}
+.footer-desc-section p{
+    margin: 15px 0px;
+    font-size: 14px;
+}
+.footer-desc-section li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-desc-section img{
+    width: 35px;
+    margin: 15px 15px 0px 0px;
+    cursor: pointer;
+}
+.footer-subscribe-section{
+    width: 40%;
+}
+.footer-subscribe-section h2{
+    font-size: 30px;
+    font-family: arial black;
+}
+.footer-subscribe-section input{
+    padding:13px 14px;
+    margin: 20px 0px;
+    background: #303030;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
